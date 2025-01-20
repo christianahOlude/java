@@ -1,0 +1,10 @@
+pseudocode
+stage 1 
+Display "What would you do with 10 million???" in all the prints method
+
+Stage 2
+
+display "what would you do with 10 million???" in printf
+display "what would you do with 10 million???" in println
+display "what would you do with 10 million???" in print
+

@@ -1,0 +1,7 @@
+pseudocode
+Stage 2
+prompt the user to enter a year
+collect number
+save as year
+check if year % 4 is a leap year or not
+display result

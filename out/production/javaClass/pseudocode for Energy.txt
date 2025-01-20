@@ -1,0 +1,21 @@
+pseudocode for Energy
+
+Prompt the user to enter a number in kg 
+collect number 
+save as waterAmount
+
+Prompt the enter a number in kg 
+collect number 
+save as initial temp
+
+Prompt the user to enter a number in kg
+collect number
+save as final temp
+
+calculate the energy as:
+energy = weight of water *(final temperature - initial temperature) * 4184
+collect result
+save as energy
+display energy
+
+            

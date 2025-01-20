@@ -1,0 +1,14 @@
+pseudocode for Volumescls
+
+Prompt the user to enter a number
+collect number
+save as length
+
+calculate the area as:
+Area = root 3 / 4(length)^2
+calculate volume as:
+volume = area * length
+collect result 
+save as volume
+display area and volume
+

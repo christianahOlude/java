@@ -1,0 +1,9 @@
+pseudocode
+Stage 2
+prompt the user to enter a number
+collect number
+save as number
+check if number can be divided by 5 and 11
+collect result 
+print result
+display result

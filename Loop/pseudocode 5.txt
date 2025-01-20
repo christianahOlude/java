@@ -1,0 +1,8 @@
+pseudocode
+Stage 2
+prompt the user to enter a number
+collect number
+save as even
+check if number is even or odd
+collect number
+display result

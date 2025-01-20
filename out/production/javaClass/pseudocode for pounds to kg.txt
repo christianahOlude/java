@@ -1,0 +1,8 @@
+pseudocode for pounds to kg
+prompt the user to enter a number in pounds
+collect number 
+save as pounds
+convert pounds to kg 
+collect number in kg 
+save as kg
+display result

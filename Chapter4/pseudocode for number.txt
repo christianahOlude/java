@@ -1,0 +1,15 @@
+pseudocode
+Stage 1
+prompt the user to enter a number 
+collect number
+save as numberone
+prompt the user to enter a number
+collect number
+save as numbertwo
+check if numberone equal to numbertwo 
+print result 
+check if numberone is greater than numbertwo
+print result
+check if numbertwo is greater than numberone
+print result
+display result   

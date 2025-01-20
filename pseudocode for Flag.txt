@@ -1,0 +1,2 @@
+pseudocode for Flag
+Display the USA flag using astericks and assignment operator

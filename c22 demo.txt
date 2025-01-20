@@ -1,0 +1,3 @@
+Save the collected inputs from each  user and save
+if user input the wrong input, return a wrong input
+if one input is incorrect, the application should the error and be on the same page till it's figured out

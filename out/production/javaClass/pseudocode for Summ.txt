@@ -1,0 +1,10 @@
+pseudocode for Summ
+stage 1
+Display the sum of (4*10) + 2*4/2
+
+stage 2
+calculate the sum of (4*10) + 2*4/2
+collect result save as summ
+display sum of (4*10) + 2*4/2 in print
+ display sum of (4*10) + 2*4/2 in println 
+display sum of (4*10) + 2*4/2 in printf

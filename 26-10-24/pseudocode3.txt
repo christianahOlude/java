@@ -1,0 +1,27 @@
+pseudocode
+Stage 2
+prompt the user to enter a year
+collect year
+save as year
+check if year % 4 is a leap year
+if so,print it is a leap year
+if not,it is not a leap year
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+}

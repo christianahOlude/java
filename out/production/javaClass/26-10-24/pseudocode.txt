@@ -1,0 +1,5 @@
+pseudocode
+stage 2
+prompt the user to input a week number
+collect number 
+display the day of the number 

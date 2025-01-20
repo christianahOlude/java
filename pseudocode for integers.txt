@@ -1,0 +1,18 @@
+pseudocode
+Stage 1
+Read an integer between 0 and 1000
+add all the digits in the integer
+display result
+
+Stage 2
+Prompt the user to enter a number between 0 to 1000
+collect number
+save as userInput
+calculate the extracted digits as:
+number1 = userInput % 10
+number2 = userInput % 100
+number3 = number2 / 10
+number4 = number1 / 100
+collect result
+save result as Integers
+display result

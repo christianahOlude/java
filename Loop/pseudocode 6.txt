@@ -1,0 +1,7 @@
+pseudocode
+Stage 2
+prompt the user to input three number
+collect numbers 
+save as Equal
+check if the three numbers are equal
+display result

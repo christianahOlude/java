@@ -1,0 +1,26 @@
+Pseudocode for Scores
+ STAGE 1
+Enter numbers 0 to 10
+create a table that displays:
+the squares of the numbers
+the cubes of the numbers
+save result 
+display result
+
+
+ STAGE 2
+
+prompt the user to enter 0 to 10 numbers
+collect numbers
+save as numbers
+create a table
+input the numbers
+calculate the squares of numbers as:
+ numbers * numbers
+collect result
+save as squares of numbers
+calculate the cubes of numbers as:
+ numbers*numbers*numbers
+collect result
+save as cubes of numbers
+display result

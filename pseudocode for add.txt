@@ -1,0 +1,11 @@
+ Prompt the user to enter a number
+ collect number
+ save number in int
+ prompt the user to enter a number 
+ collect number
+ save number in double
+ prompt the user to enter a number
+ collect number
+ save number in float
+  calculate first number, second number, third number in sum
+  display result as sum
