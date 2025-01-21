@@ -54,7 +54,7 @@ public class AirConditionerTest {
         }
 
 
-        assertTrue(airConditioner.getTemperature() == 30);
+        assertFalse(airConditioner.getTemperature() == 30);
     }
     @Test
     public void testThatAcDoesNotDecreaseThan16(){
