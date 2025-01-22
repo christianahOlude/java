@@ -1,5 +1,3 @@
-//package AirConditioner.src;
-
 public class AirConditioner {
     private boolean isOn = false;
     private int temperatureDegree = 16;
