@@ -2,22 +2,26 @@
 
 public class CreditCardValidator {
 	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter credit card number: ");
+	String cardNumber = sc.nextLine();
 
+	validateCreditCard();
 	}
 
-	public static boolean validateCreditCard(int[] cardNumber) {
+	public static boolean validateCreditCard(int [] cardNumbers) {
 
 		int sum = 0;
 
-		for (int i = 0; i < cardNumber.length; i++) {
+		for (int i = 0; i < cardNumbers.length; i++) {
 
-			if (cardNumber[i] == 4) {
+			if (cardNumbers[i] == 4) {
 				System.out.print("Visa Cards");
-			} else if (cardNumber[i] == 5) {
+			} else if (cardNumbers[i] == 5) {
 				System.out.print("Mastercard Cards");
-			} else if (cardNumber[i] == 6) {
+			} else if (cardNumbers[i] == 6) {
 				System.out.print("Discover Cards");
-			} else if (cardNumber[i] == 37) {
+			} else if (cardNumbers[i] == 37) {
 				System.out.print("American Express Cards");
 			}
 		}
