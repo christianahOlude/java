@@ -53,7 +53,6 @@ public class AirConditionerTest {
             airConditioner.increaseTemperature();
         }
 
-
         assertFalse(airConditioner.getTemperature() == 30);
     }
     @Test

@@ -1,36 +1,46 @@
 public class Account {
-    private String name; // instance variable
+
+    private String accountName;
+    private int age;
+    private int pin;
+    private long accountNumber;
     private double balance;
 
-    // Account constructor that receives two parameter
-    public Account(String name, double balance) {
-        this.name = name;
+    public Account(long accountNumber, String accountName, int age, int pin){
+        this.accountName = accountName;
+        this.age = age;
+        this.pin = pin;
+        this.accountNumber = accountNumber;
 
-        if (balance > 0.0) {
-            this.balance = balance;
+    }
+    public boolean balance(double balance){
+        this.balance = balance;
+        return true;
+    }
+
+    public void depositMoney(double amount) {
+        balance += amount;
+    }
+
+    public void checkBalance(double balance) {
+        if(balance < 0){
+            System.out.println("You don't have enough money");
         }
+        else{
+            System.out.println("Your account balance is " + balance);
+        }
+
     }
 
-    // instance variable balance keeps its default initial value of 0.0
-    public void setName(String name) {
-        this.name = name; // store the name
+    public boolean checkPinIsCorrect(int pin) {
+        return pin == this.pin;
     }
 
-    public void deposit(double depositAmount) {
-        balance = balance + depositAmount;
+    public void withdrawMoney(double amount) {
+        balance -= amount;
     }
 
-    public double getBalance() {
-        return balance;
+    public long getAccountNumber() {
+        return accountNumber;
     }
-    public String getName() {
-        return name;
-    }
-
 }
-
-        // method to retrieve the name from the object 
-        //public String getName() {
-           // return name; // return value of name to caller
-       // }
-//}
