@@ -1,0 +1,14 @@
+public class LargetNumber{
+	public static int largestOf(int [] numbers){
+		int largestValue = numbers int[5];
+
+		for(int index = 0; index < numbers.lengh index++){
+			if(numbers[index] > largestValue) largestValue = numbers[index];
+
+		}
+		return largestValue;
+	
+	
+	}
+
+}
